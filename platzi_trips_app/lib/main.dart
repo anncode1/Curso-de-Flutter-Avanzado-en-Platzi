@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
 
               ],
             ),
-            GradientBack()
+            GradientBack("Popular")
           ],
         ),
       )//MyHomePage(title: 'Flutter Demo Home Page'),
