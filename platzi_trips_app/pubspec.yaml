@@ -68,6 +68,8 @@ flutter:
   # see https://flutter.io/custom-fonts/#from-packages
   assets:
     - assets/img/people.jpg
+    - assets/img/ann.jpg
+    - assets/img/girl.jpg
 
   fonts:
     - family: Lato
