@@ -33,7 +33,9 @@ class _PlatziTrips extends State<PlatziTrips> {
     // TODO: implement build
 
 
-    return  Scaffold(
+    return
+
+      Scaffold(
       body: widgetsChildren[indexTap],
       bottomNavigationBar: Theme(
         data: Theme.of(context).copyWith(
