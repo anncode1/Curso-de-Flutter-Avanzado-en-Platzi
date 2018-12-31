@@ -1,0 +1,4 @@
+#Wed Dec 26 06:24:45 COT 2018
+base.0=/Users/anahisalgado/Documents/flutter/travel/platzi_trips_app/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
