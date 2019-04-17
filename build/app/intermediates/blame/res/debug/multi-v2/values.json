@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/anahisalgado/Documents/flutter/travel/platzi_trips_app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/anahisalgado/Documents/flutter/travel/platzi_trips_app/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/anahisalgado/Documents/flutter/platzi-curso-avanzado/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
