@@ -51,6 +51,13 @@
             </list>
           </value>
         </entry>
+        <entry key="generic_bloc_provider">
+          <value>
+            <list>
+              <option value="$USER_HOME$/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/generic_bloc_provider-1.0.8/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="matcher">
           <value>
             <list>
@@ -157,6 +164,7 @@
       <root url="file://$USER_HOME$/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.1.2/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.2/lib" />
+      <root url="file://$USER_HOME$/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/generic_bloc_provider-1.0.8/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.3+1/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.1.6/lib" />
       <root url="file://$USER_HOME$/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.6.2/lib" />
