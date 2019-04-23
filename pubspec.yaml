@@ -20,6 +20,10 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
   generic_bloc_provider: ^1.0.8
+  firebase_auth:
+  google_sign_in:
+  firebase_storage: ^2.1.0
+  cloud_firestore: ^0.9.13
 
 
 dev_dependencies:
