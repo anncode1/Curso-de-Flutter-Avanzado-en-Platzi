@@ -1,4 +1,4 @@
-package com.anncode.platzitripsapp
+package com.anncode.platzitripsflutter
 
 import android.annotation.TargetApi
 import android.os.Build
