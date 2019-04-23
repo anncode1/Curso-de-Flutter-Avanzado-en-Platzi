@@ -16,17 +16,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 @protocol FlutterPluginRegistrar;
-@protocol FlutterPluginRegistry;
-
-/**
- * A plugin registration callback.
- *
- * Used for registering plugins with additional instances of
- * `FlutterPluginRegistry`.
- *
- * @param registry The registry to register plugins with.
- */
-typedef void (*FlutterPluginRegistrantCallback)(NSObject<FlutterPluginRegistry>* registry);
 
 /**
  * Implemented by the iOS part of a Flutter plugin.
@@ -54,19 +43,6 @@ typedef void (*FlutterPluginRegistrantCallback)(NSObject<FlutterPluginRegistry>*
  *     registering callbacks.
  */
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar;
-@optional
-/**
- * Set a callback for registering plugins to an additional `FlutterPluginRegistry`,
- * including headless `FlutterEngine` instances.
- *
- * This method is typically called from within an application's `AppDelegate` at
- * startup to allow for plugins which create additional `FlutterEngine` instances
- * to register the application's plugins.
- *
- * @param callback A callback for registering some set of plugins with a
- *     `FlutterPluginRegistry`.
- */
-+ (void)setPluginRegistrantCallback:(FlutterPluginRegistrantCallback)callback;
 @optional
 /**
  * Called if this plugin has been registered to receive `FlutterMethodCall`s.
