@@ -1,12 +1,35 @@
 import 'package:flutter/material.dart';
+import 'package:generic_bloc_provider/generic_bloc_provider.dart';
+import 'package:platzi_trips_app/User/bloc/bloc_user.dart';
 import 'package:platzi_trips_app/User/ui/widgets/user_info.dart';
 import 'package:platzi_trips_app/User/ui/widgets/button_bar.dart';
 
 class ProfileHeader extends StatelessWidget {
+  UserBloc userBloc;
+
   @override
   Widget build(BuildContext context) {
+    userBloc = BlocProvider.of<UserBloc>(context);
 
-    final title = Text(
+    return StreamBuilder(
+      stream: userBloc.streamFirebase,
+      builder: (BuildContext context, AsyncSnapshot snapshot){
+        switch(snapshot.connectionState){
+          case ConnectionState.waiting:
+            return CircularProgressIndicator();
+          case ConnectionState.none:
+            return CircularProgressIndicator();
+          case ConnectionState.active:
+            return null;
+          case ConnectionState.done:
+            return null;
+        }
+
+      },
+    );
+
+
+    /*final title = Text(
       'Profile',
       style: TextStyle(
           fontFamily: 'Lato',
@@ -33,7 +56,16 @@ class ProfileHeader extends StatelessWidget {
           ButtonsBar()
         ],
       ),
-    );
+    );*/
+  }
+
+
+  Widget showProfileData(AsyncSnapshot snapshot) {
+    if(!snapshot.hasData ||snapshot.hasError){
+      print("No logeado");
+    }else{
+      print("Logeado");
+    }
   }
 
 }
