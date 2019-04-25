@@ -34,6 +34,7 @@ class _CircleButton extends State<CircleButton> {
             size: widget.iconSize,
             color: Color(0xFF4268D3),
           ),
+          heroTag: null,
         )
     );
   }

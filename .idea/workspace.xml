@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="940129dc-892a-44b5-b490-7c55d5e5dc5b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/lib/Place/ui/screens/add_place_screen.dart" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.lock" />
@@ -12,449 +13,19 @@
       <change beforePath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/build/app.dill" afterPath="$PROJECT_DIR$/build/app.dill" />
+      <change beforePath="$PROJECT_DIR$/build/app.dill.incremental.dill" afterPath="$PROJECT_DIR$/build/app.dill.incremental.dill" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d.fingerprint" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/snapshot_blob.bin.d.fingerprint" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/zd7rpI3B+i_mNQ3dxpCHm4eOj3E=" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/zd7rpI3B+i_mNQ3dxpCHm4eOj3E=" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out/flutter_assets/kernel_blob.bin" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/10.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/10.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/100.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/101.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/102.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/103.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/104.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/105.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/106.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/107.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/108.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/109.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/11.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/11.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/110.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/111.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/112.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/114.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/115.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/116.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/117.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/118.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/119.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/12.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/12.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/120.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/121.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/122.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/123.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/124.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/125.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/126.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/127.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/128.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/129.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/13.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/13.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/arch/core/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/asynclayoutinflater/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/asynclayoutinflater/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/asynclayoutinflater/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/asynclayoutinflater/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/asynclayoutinflater/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/asynclayoutinflater/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/asynclayoutinflater/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/asynclayoutinflater/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/asynclayoutinflater/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/asynclayoutinflater/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/asynclayoutinflater/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/coordinatorlayout/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/coordinatorlayout/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/coordinatorlayout/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/coordinatorlayout/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/coordinatorlayout/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/coordinatorlayout/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/coordinatorlayout/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/coordinatorlayout/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/coordinatorlayout/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/coordinatorlayout/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/coordinatorlayout/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/core/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/core/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/core/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/core/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/core/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/core/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/core/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/core/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/core/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/core/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/core/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/cursoradapter/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/customview/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/customview/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/customview/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/customview/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/customview/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/customview/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/customview/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/customview/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/customview/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/customview/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/customview/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/documentfile/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/drawerlayout/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/drawerlayout/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/drawerlayout/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/drawerlayout/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/drawerlayout/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/drawerlayout/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/drawerlayout/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/drawerlayout/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/drawerlayout/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/drawerlayout/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/drawerlayout/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/fragment/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/fragment/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/fragment/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/fragment/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/fragment/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/fragment/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/fragment/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/fragment/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/fragment/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/fragment/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/fragment/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/interpolator/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreui/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreui/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreui/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreui/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreui/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreui/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreui/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreui/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreui/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreui/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreui/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreutils/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreutils/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreutils/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreutils/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreutils/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreutils/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreutils/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreutils/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreutils/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreutils/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/coreutils/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/v4/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/v4/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/v4/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/v4/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/v4/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/v4/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/v4/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/v4/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/v4/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/v4/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/legacy/v4/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/lifecycle/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/lifecycle/livedata/core/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/lifecycle/viewmodel/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/loader/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/loader/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/loader/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/loader/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/loader/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/loader/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/loader/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/loader/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/loader/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/loader/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/loader/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/localbroadcastmanager/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/media/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/media/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/media/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/media/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/media/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/media/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/media/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/media/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/media/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/media/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/media/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/print/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/slidingpanelayout/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/slidingpanelayout/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/slidingpanelayout/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/slidingpanelayout/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/slidingpanelayout/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/slidingpanelayout/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/slidingpanelayout/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/slidingpanelayout/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/slidingpanelayout/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/slidingpanelayout/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/slidingpanelayout/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/swiperefreshlayout/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/swiperefreshlayout/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/swiperefreshlayout/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/swiperefreshlayout/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/swiperefreshlayout/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/swiperefreshlayout/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/swiperefreshlayout/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/swiperefreshlayout/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/swiperefreshlayout/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/swiperefreshlayout/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/swiperefreshlayout/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/versionedparcelable/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/viewpager/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/viewpager/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/viewpager/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/viewpager/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/viewpager/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/viewpager/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/viewpager/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/viewpager/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/viewpager/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/viewpager/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/androidx/viewpager/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/anncode/platzitripsflutter/BuildConfig.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/anncode/platzitripsflutter/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/anncode/platzitripsflutter/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/anncode/platzitripsflutter/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/anncode/platzitripsflutter/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/anncode/platzitripsflutter/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/anncode/platzitripsflutter/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/anncode/platzitripsflutter/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/anncode/platzitripsflutter/R$mipmap.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/anncode/platzitripsflutter/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/anncode/platzitripsflutter/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/anncode/platzitripsflutter/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/anncode/platzitripsflutter/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/ads_identifier/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/auth/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/auth/api/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/auth/api/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/auth/api/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/auth/api/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/auth/api/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/auth/api/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/auth/api/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/auth/api/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/auth/api/phone/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/base/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/base/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/base/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/base/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/base/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/base/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/base/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/common/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/common/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/common/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/flags/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/measurement/api/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/measurement_base/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/stats/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/android/gms/tasks/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/analytics/connector/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/analytics/connector/impl/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/auth/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/auth/internal/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/database/collection/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/firebase_core/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/firestore/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/firestore/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/firestore/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/firestore/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/firestore/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/firestore/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/firestore/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/firestore/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/firestore/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/firestore/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/firestore/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/iid/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/iid/internal/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/measurement/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/measurement_impl/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/storage/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/storage/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/storage/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/storage/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/storage/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/storage/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/storage/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/storage/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/storage/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/storage/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/com/google/firebase/storage/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/firebase/com/protolitewrapper/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/GeneratedPluginRegistrant.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/core/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/core/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/core/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/core/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/core/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/core/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/core/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/core/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/core/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/core/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/core/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/firestore/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/firestore/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/firestore/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/firestore/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/firestore/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/firestore/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/firestore/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/firestore/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/firestore/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/firestore/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/firestore/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/storage/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/storage/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/storage/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/storage/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/storage/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/storage/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/storage/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/storage/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/storage/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/storage/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebase/storage/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebaseauth/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebaseauth/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebaseauth/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebaseauth/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebaseauth/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebaseauth/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebaseauth/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebaseauth/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebaseauth/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebaseauth/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/firebaseauth/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/googlesignin/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/googlesignin/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/googlesignin/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/googlesignin/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/googlesignin/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/googlesignin/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/googlesignin/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/googlesignin/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/googlesignin/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/googlesignin/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/flutter/plugins/googlesignin/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/130/io/grpc/android/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/131/com/anncode/platzitripsflutter/MainActivity.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/14.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/14.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/15.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/15.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/16.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/16.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/17.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/17.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/18.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/18.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/19.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/19.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/2.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/2.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/20.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/20.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/21.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/21.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/22.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/22.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/23.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/23.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/24.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/24.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/25.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/25.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/27.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/27.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/28.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/28.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/29.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/29.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/3.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/3.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/30.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/30.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/31.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/31.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/32.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/32.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/33.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/33.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/34.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/34.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/35.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/35.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/36.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/36.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/37.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/37.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/38.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/38.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/39.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/39.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/40.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/40.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/41.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/41.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/42.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/42.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/43.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/43.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/44.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/44.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/45.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/45.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/46.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/46.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/47.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/47.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/48.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/48.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/49.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/49.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/5.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/5.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/50.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/50.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/51.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/51.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/52.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/52.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/53.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/53.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/54.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/54.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/55.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/55.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/56.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/56.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/57.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/57.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/58.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/58.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/59.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/59.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/6.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/6.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/60.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/60.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/61.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/61.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/62.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/62.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/63.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/63.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/64.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/64.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/65.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/65.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/66.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/66.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/67.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/67.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/68.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/68.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/69.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/69.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/7.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/7.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/70.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/70.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/71.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/71.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/72.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/72.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/73.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/73.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/74.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/74.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/75.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/75.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/76.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/76.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/77.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/77.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/78.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/78.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/79.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/79.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/8.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/8.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/80.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/80.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/81.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/81.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/82.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/82.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/83.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/83.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/84.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/84.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/85.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/85.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/86.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/86.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/87.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/87.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/9.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/9.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/90.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/90.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/91.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/92.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/93.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/94.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/95.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/96.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/97.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/98.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/99.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/dexBuilder/debug/__content__.json" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/transforms/mergeJavaRes/debug/0.jar" afterPath="$PROJECT_DIR$/build/app/intermediates/transforms/mergeJavaRes/debug/0.jar" />
-      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/build-history.bin" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/build-history.bin" />
-      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/last-build.bin" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/last-build.bin" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" afterPath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/lib/User/ui/screens/sign_in_screen.dart" afterPath="$PROJECT_DIR$/lib/User/ui/screens/sign_in_screen.dart" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/gradient_back.dart" afterPath="$PROJECT_DIR$/lib/widgets/gradient_back.dart" />
+      <change beforePath="$PROJECT_DIR$/lib/User/ui/widgets/button_bar.dart" afterPath="$PROJECT_DIR$/lib/User/ui/widgets/button_bar.dart" />
+      <change beforePath="$PROJECT_DIR$/lib/User/ui/widgets/circle_button.dart" afterPath="$PROJECT_DIR$/lib/User/ui/widgets/circle_button.dart" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/floating_action_button_green.dart" afterPath="$PROJECT_DIR$/lib/widgets/floating_action_button_green.dart" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -465,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="sign_in_screen.dart" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sign_in_screen.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/User/ui/screens/sign_in_screen.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="59" column="37" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+            <state relative-caret-position="185">
+              <caret line="55" column="23" lean-forward="false" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -477,13 +48,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header_appbar.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Place/ui/screens/header_appbar.dart">
+      <file leaf-file-name="add_place_screen.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Place/ui/screens/add_place_screen.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="-414">
+              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#17#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="circle_button.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/circle_button.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="floating_action_button_green.dart" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/widgets/floating_action_button_green.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="button_bar.dart" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/button_bar.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="30" column="100" lean-forward="false" selection-start-line="30" selection-start-column="100" selection-end-line="30" selection-end-column="100" />
+              <folding>
+                <element signature="e#0#17#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -529,16 +132,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile_place.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/profile_place.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cloud_firestore_repository.dart" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/User/repository/cloud_firestore_repository.dart">
           <provider selected="true" editor-type-id="text-editor">
@@ -546,30 +139,6 @@
               <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="30" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="place.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Place/model/place.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bloc_user.dart" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/User/bloc/bloc_user.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#66#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -628,11 +197,9 @@
         <option value="$PROJECT_DIR$/lib/main.dart" />
         <option value="$PROJECT_DIR$/lib/widgets/button_green.dart" />
         <option value="$PROJECT_DIR$/lib/User/repository/FirebaseAuth.dart" />
-        <option value="$PROJECT_DIR$/lib/User/ui/widgets/circle_button.dart" />
         <option value="$PROJECT_DIR$/lib/platzi_trips_cupertino.dart" />
         <option value="$PROJECT_DIR$/lib/User/ui/widgets/user_info.dart" />
         <option value="$PROJECT_DIR$/lib/User/ui/screens/profile_header.dart" />
-        <option value="$PROJECT_DIR$/lib/User/ui/widgets/button_bar.dart" />
         <option value="$PROJECT_DIR$/lib/User/repository/auth_repository.dart" />
         <option value="$PROJECT_DIR$/lib/User/repository/firebase_auth_api.dart" />
         <option value="$PROJECT_DIR$/lib/User/model/user.dart" />
@@ -646,6 +213,10 @@
         <option value="$PROJECT_DIR$/lib/widgets/gradient_back.dart" />
         <option value="$PROJECT_DIR$/lib/Place/ui/screens/header_appbar.dart" />
         <option value="$PROJECT_DIR$/lib/User/ui/screens/sign_in_screen.dart" />
+        <option value="$PROJECT_DIR$/lib/Place/ui/screens/add_place_screen.dart" />
+        <option value="$PROJECT_DIR$/lib/User/ui/widgets/button_bar.dart" />
+        <option value="$PROJECT_DIR$/lib/User/ui/widgets/circle_button.dart" />
+        <option value="$PROJECT_DIR$/lib/widgets/floating_action_button_green.dart" />
       </list>
     </option>
   </component>
@@ -682,6 +253,27 @@
               <item name="Curso-de-Flutter-Avanzado-en-Platzi" type="b2602c69:ProjectViewProjectNode" />
               <item name="Curso-de-Flutter-Avanzado-en-Platzi" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Curso-de-Flutter-Avanzado-en-Platzi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso-de-Flutter-Avanzado-en-Platzi" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="Place" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Curso-de-Flutter-Avanzado-en-Platzi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso-de-Flutter-Avanzado-en-Platzi" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="Place" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Curso-de-Flutter-Avanzado-en-Platzi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Curso-de-Flutter-Avanzado-en-Platzi" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="Place" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="screens" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Curso-de-Flutter-Avanzado-en-Platzi" type="b2602c69:ProjectViewProjectNode" />
@@ -864,7 +456,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1280" height="697" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -874,7 +465,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Dart Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874355" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4130809" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5645439" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62134254" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Flutter Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -882,7 +473,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37947884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37947884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -921,11 +512,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4130809" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5645439" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62134254" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37947884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37947884" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -952,7 +543,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-          <folding />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1024,7 +617,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
           <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1069,7 +664,7 @@
         <state relative-caret-position="216">
           <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding>
-            <element signature="e#0#66#0" expanded="true" />
+            <element signature="e#0#66#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1168,14 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/button_bar.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/User/model/user.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -1201,7 +788,7 @@
         <state relative-caret-position="189">
           <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="21" />
           <folding>
-            <element signature="e#0#66#0" expanded="true" />
+            <element signature="e#0#66#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1211,7 +798,7 @@
         <state relative-caret-position="122">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1258,16 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Place/ui/screens/header_appbar.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/widgets/gradient_back.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -1278,11 +855,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/User/ui/screens/sign_in_screen.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="59" column="37" lean-forward="false" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        <state relative-caret-position="185">
+          <caret line="55" column="23" lean-forward="false" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Place/ui/widgets/card_image_list.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Place/ui/screens/header_appbar.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/button_bar.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="30" column="100" lean-forward="false" selection-start-line="30" selection-start-column="100" selection-end-line="30" selection-end-column="100" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Place/ui/screens/add_place_screen.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/widgets/button_green.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="25" column="19" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/User/ui/widgets/circle_button.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="36" column="23" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/widgets/floating_action_button_green.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
