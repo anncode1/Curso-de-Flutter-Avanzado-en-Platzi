@@ -6,7 +6,7 @@ class Place {
   String id;
   String name;
   String description;
-  String uriImage;
+  String urlImage;
   int likes;
   User userOwner;
 
@@ -14,7 +14,7 @@ class Place {
     Key key,
     @required this.name,
     @required this.description,
-    @required this.uriImage,
+    @required this.urlImage,
     this.likes,
     @required this.userOwner
   });
