@@ -67,11 +67,11 @@ class _AddPlaceScreen extends State<AddPlaceScreen> {
                     pathImage: "assets/img/sunset.jpeg",//widget.image.path,
                     iconData: Icons.camera_alt,
                     width: 350.0,
-                    height: 250.0,
+                    height: 250.0,left: 0,
                   ),
                 ), //Foto
                 Container(//TextField Title
-                  margin: EdgeInsets.only(bottom: 20.0),
+                  margin: EdgeInsets.only(top:20.0, bottom: 20.0),
                   child: TextInput(
                     hintText: "Title",
                     inputType: null,
