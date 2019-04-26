@@ -80,7 +80,7 @@ class _AddPlaceScreen extends State<AddPlaceScreen> {
                   margin: EdgeInsets.only(top: 20.0),
                   child: TextInputLocation(
                     hintText: "Add Location",
-                    iconData: Icons.location_on,),
+                    iconData: Icons.location_on),
                 )
               ],
             ),
