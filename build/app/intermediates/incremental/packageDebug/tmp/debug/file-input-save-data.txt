@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Apr 25 13:00:06 COT 2019
+#Fri Apr 26 09:55:44 COT 2019
 17.baseType=DIRECTORY
 4.path=flutter_assets/assets/img/sunset.jpeg
 25.base=/Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
