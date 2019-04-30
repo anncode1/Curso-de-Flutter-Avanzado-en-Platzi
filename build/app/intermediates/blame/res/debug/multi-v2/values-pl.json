@@ -4,6 +4,23 @@
             "outputFile": "/Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml",
             "map": [
                 {
+                    "source": "/Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/ca3807b4d25bc2d54e71b48963d14dee/res/values-pl/values-pl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2846",
+                        "endColumns": "100",
+                        "endOffsets": "2942"
+                    }
+                },
+                {
                     "source": "/Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/d148909e7648b1cccde8d011d10e0258/res/values-pl/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -18,23 +35,6 @@
                         "startOffsets": "105,211,411,535,647,857,984,1125,1452,1682,1793,1999,2129,2347,2538,2637,2733",
                         "endColumns": "105,199,123,111,209,126,140,127,229,110,205,129,217,190,98,95,112",
                         "endOffsets": "206,406,530,642,852,979,1120,1248,1677,1788,1994,2124,2342,2533,2632,2728,2841"
-                    }
-                },
-                {
-                    "source": "/Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/core-1.0.0-rc01.aar/48cbea78e01ccbe3324be12c1a2d7ed6/res/values-pl/values-pl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2846",
-                        "endColumns": "100",
-                        "endOffsets": "2942"
                     }
                 },
                 {

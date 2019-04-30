@@ -24,6 +24,7 @@ dependencies:
   google_sign_in:
   firebase_storage: ^2.1.0
   cloud_firestore: ^0.9.13
+  image_picker: ^0.5.4+3
 
 
 dev_dependencies:

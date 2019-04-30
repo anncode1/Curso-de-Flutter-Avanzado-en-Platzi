@@ -1485,4 +1485,7 @@ public final class R {
      */
     public static final int SignInButton_scopeUris=2;
   }
+  public static final class xml {
+    public static final int flutter_image_picker_file_paths=0x7f0c0000;
+  }
 }
