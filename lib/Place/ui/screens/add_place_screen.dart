@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 import 'package:platzi_trips_app/Place/model/place.dart';
@@ -106,23 +107,38 @@ class _AddPlaceScreen extends State<AddPlaceScreen> {
                       //ID del usuario logeado actualmente
                       userBloc.currentUser.then((FirebaseUser user) {
                         if(user != null){
+                          String uid = user.uid;
+                          String path = "${uid}/${DateTime.now().toString()}.jpg";
                           //1. Firebase Storage
                           //url -
+                          userBloc.uploadFile(path, widget.image)
+                              .then((StorageUploadTask storageUploadTask){
+                                storageUploadTask.onComplete.then((StorageTaskSnapshot snapshot){
+                                  snapshot.ref.getDownloadURL().then((urlImage){
+                                    print("URLIMAGE: ${urlImage}");
+
+
+                                    //2. Cloud Firestore
+                                    //Place - title, description, url, userOwner, likes
+                                    userBloc.updatePlaceData(Place(
+                                      name: _controllerTitlePlace.text,
+                                      description: _controllerDescriptionPlace.text,
+                                      urlImage: urlImage,
+                                      likes: 0,
+
+                                    )).whenComplete(() {
+                                      print("TERMINO");
+                                      Navigator.pop(context);
+                                    });
+
+                                  });
+                                });
+                          });
 
                         }
                       });
 
-                      //2. Cloud Firestore
-                      //Place - title, description, url, userOwner, likes
-                      userBloc.updatePlaceData(Place(
-                        name: _controllerTitlePlace.text,
-                        description: _controllerDescriptionPlace.text,
-                        likes: 0,
 
-                      )).whenComplete(() {
-                        print("TERMINO");
-                        Navigator.pop(context);
-                      });
                     },
                   ),
                 )

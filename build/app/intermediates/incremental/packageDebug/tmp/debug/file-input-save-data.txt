@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Apr 30 15:01:42 COT 2019
+#Tue Apr 30 15:46:37 COT 2019
 5.base=/Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/app/intermediates/merged_assets/debug/mergeDebugAssets/out
 22.path=flutter_assets/fonts/MaterialIcons-Regular.ttf
 32.set=DEX
