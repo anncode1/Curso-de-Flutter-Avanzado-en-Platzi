@@ -96,6 +96,8 @@ class CloudFirestoreAPI {
         );
       });
 
+      return placesCard;
+
 
   }
 
