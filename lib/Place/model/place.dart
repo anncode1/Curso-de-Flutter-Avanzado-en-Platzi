@@ -15,7 +15,7 @@ class Place {
     @required this.name,
     @required this.description,
     @required this.urlImage,
-    this.likes,
+    @required this.likes,
     //@required this.userOwner
   });
 }

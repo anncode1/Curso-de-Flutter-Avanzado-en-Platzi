@@ -60,7 +60,10 @@ class CloudFirestoreAPI {
         Place(
             name: p.data['name'],
             description: p.data['description'],
-            urlImage: p.data['urlImage'])
+            urlImage: p.data['urlImage'],
+            likes: p.data['likes']
+        ),
+
       ));
 
     });
