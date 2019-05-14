@@ -1,4 +1,4 @@
-#Fri May 03 16:43:22 COT 2019
+#Tue May 14 10:05:08 COT 2019
 base.2=/Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/app/intermediates/transforms/dexMerger/debug/3
 base.1=/Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/app/intermediates/transforms/dexMerger/debug/0
 base.0=/Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/app/intermediates/transforms/dexMerger/debug/1
@@ -16,17 +16,29 @@ path.3=classes.dex
 renamed.5=classes6.dex
 path.2=classes.dex
 renamed.4=classes5.dex
+renamed.19=classes20.dex
 renamed.3=classes4.dex
 path.1=classes.dex
+renamed.18=classes19.dex
 renamed.2=classes3.dex
 path.0=classes.dex
+renamed.17=classes18.dex
 renamed.1=classes2.dex
+renamed.16=classes17.dex
 renamed.0=classes.dex
 renamed.15=classes16.dex
 renamed.14=classes15.dex
+path.19=classes.dex
+base.19=/Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/app/intermediates/transforms/dexMerger/debug/16
 renamed.13=classes14.dex
+path.18=classes.dex
+base.18=/Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/app/intermediates/transforms/dexMerger/debug/18
 renamed.12=classes13.dex
+path.17=classes.dex
+base.17=/Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/app/intermediates/transforms/dexMerger/debug/15
 renamed.11=classes12.dex
+path.16=classes.dex
+base.16=/Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/app/intermediates/transforms/dexMerger/debug/17
 renamed.10=classes11.dex
 path.15=classes.dex
 base.15=/Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/app/intermediates/transforms/dexMerger/debug/14

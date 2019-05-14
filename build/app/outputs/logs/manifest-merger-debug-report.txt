@@ -5,14 +5,17 @@ INJECTED from /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso
 INJECTED from /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/android/app/src/main/AndroidManifest.xml:1:1-39:12
 INJECTED from /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/android/app/src/main/AndroidManifest.xml:1:1-39:12
 MERGED from [:firebase_auth] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/sqflite/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:image_picker] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-22:12
+MERGED from [:path_provider] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:google_sign_in] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/google_sign_in/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-9:12
 MERGED from [:cloud_firestore] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_core] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_core/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [:firebase_storage] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/375a1fb3f47a58f4781ef611aacf5d1e/AndroidManifest.xml:17:1-42:12
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/6e66152a04e3f7fa7f1faae521857d66/AndroidManifest.xml:17:1-39:12
 MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-18.2.0.aar/d01a85347947a052a9ef07513b6810c8/AndroidManifest.xml:2:1-24:12
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/1dff3a24f1886bc06022bbe0fdd1f435/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/6e66152a04e3f7fa7f1faae521857d66/AndroidManifest.xml:17:1-39:12
 MERGED from [com.google.firebase:firebase-storage:16.0.3] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-storage-16.0.3.aar/4e8340b87d0e1382efe316b70328c9d5/AndroidManifest.xml:15:1-26:12
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/c25326cf4a931ccd9fd1eeb7cfc8152e/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-16.0.1.aar/49611d16fa9e1f531431a2a7837265ae/AndroidManifest.xml:2:1-10:12
@@ -33,7 +36,6 @@ MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/a
 MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/f94404edc487768df53de78746cf783f/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.1.0.aar/1a4f9d505bb4f6c6226f0f84c36ad3bf/AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/98f182c469c499ba434014c06c5cdc99/AndroidManifest.xml:17:1-22:12
-MERGED from [io.grpc:grpc-android:1.16.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/1dff3a24f1886bc06022bbe0fdd1f435/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.media:media:1.0.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/c7f091553ca1942c65ef658b8b7b905f/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/82a1478bad33bc512df5560a3f05a72c/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/7bf36b50df23aec8acb4069eb845c2d6/AndroidManifest.xml:17:1-22:12
@@ -102,10 +104,10 @@ MERGED from [:image_picker] /Users/anahisalgado/Documents/flutter/curso-avanzado
 MERGED from [:image_picker] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:10:5-20:19
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/375a1fb3f47a58f4781ef611aacf5d1e/AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/375a1fb3f47a58f4781ef611aacf5d1e/AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/6e66152a04e3f7fa7f1faae521857d66/AndroidManifest.xml:22:5-37:19
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/6e66152a04e3f7fa7f1faae521857d66/AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-18.2.0.aar/d01a85347947a052a9ef07513b6810c8/AndroidManifest.xml:16:5-22:19
 MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-18.2.0.aar/d01a85347947a052a9ef07513b6810c8/AndroidManifest.xml:16:5-22:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/6e66152a04e3f7fa7f1faae521857d66/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/6e66152a04e3f7fa7f1faae521857d66/AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-16.0.1.aar/49611d16fa9e1f531431a2a7837265ae/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-16.0.1.aar/49611d16fa9e1f531431a2a7837265ae/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-core:16.0.4] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.4.aar/cbc6e235406fa75632ad2435bdfa831b/AndroidManifest.xml:7:5-20
@@ -186,8 +188,12 @@ INJECTED from /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso
 INJECTED from /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/android/app/src/main/AndroidManifest.xml
 MERGED from [:firebase_auth] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_auth] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_auth/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/sqflite/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/sqflite/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:image_picker] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:image_picker] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/image_picker/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/path_provider/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:google_sign_in] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/google_sign_in/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:google_sign_in] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/google_sign_in/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [:cloud_firestore] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/cloud_firestore/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
@@ -198,10 +204,12 @@ MERGED from [:firebase_storage] /Users/anahisalgado/Documents/flutter/curso-avan
 MERGED from [:firebase_storage] /Users/anahisalgado/Documents/flutter/curso-avanzado-flutter/Curso-de-Flutter-Avanzado-en-Platzi/build/firebase_storage/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/375a1fb3f47a58f4781ef611aacf5d1e/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/375a1fb3f47a58f4781ef611aacf5d1e/AndroidManifest.xml:21:5-44
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/6e66152a04e3f7fa7f1faae521857d66/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/6e66152a04e3f7fa7f1faae521857d66/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-18.2.0.aar/d01a85347947a052a9ef07513b6810c8/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-firestore:18.2.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-18.2.0.aar/d01a85347947a052a9ef07513b6810c8/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/1dff3a24f1886bc06022bbe0fdd1f435/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/1dff3a24f1886bc06022bbe0fdd1f435/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/6e66152a04e3f7fa7f1faae521857d66/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/6e66152a04e3f7fa7f1faae521857d66/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-storage:16.0.3] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-storage-16.0.3.aar/4e8340b87d0e1382efe316b70328c9d5/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-storage:16.0.3] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-storage-16.0.3.aar/4e8340b87d0e1382efe316b70328c9d5/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/c25326cf4a931ccd9fd1eeb7cfc8152e/AndroidManifest.xml:20:5-44
@@ -242,8 +250,6 @@ MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/anahis
 MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.1.0.aar/1a4f9d505bb4f6c6226f0f84c36ad3bf/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/98f182c469c499ba434014c06c5cdc99/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/98f182c469c499ba434014c06c5cdc99/AndroidManifest.xml:20:5-44
-MERGED from [io.grpc:grpc-android:1.16.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/1dff3a24f1886bc06022bbe0fdd1f435/AndroidManifest.xml:7:5-9:41
-MERGED from [io.grpc:grpc-android:1.16.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/1dff3a24f1886bc06022bbe0fdd1f435/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.media:media:1.0.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/c7f091553ca1942c65ef658b8b7b905f/AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/media-1.0.0.aar/c7f091553ca1942c65ef658b8b7b905f/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/82a1478bad33bc512df5560a3f05a72c/AndroidManifest.xml:20:5-44
@@ -366,6 +372,28 @@ ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/anahisalgado/.gradl
 		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/375a1fb3f47a58f4781ef611aacf5d1e/AndroidManifest.xml:38:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/375a1fb3f47a58f4781ef611aacf5d1e/AndroidManifest.xml:37:17-109
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-18.2.0.aar/d01a85347947a052a9ef07513b6810c8/AndroidManifest.xml:13:5-79
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/1dff3a24f1886bc06022bbe0fdd1f435/AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.16.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/1dff3a24f1886bc06022bbe0fdd1f435/AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.3] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-storage-16.0.3.aar/4e8340b87d0e1382efe316b70328c9d5/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:16.0.3] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-storage-16.0.3.aar/4e8340b87d0e1382efe316b70328c9d5/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.2.aar/2531f64cd0d2c2912277e998a5eb854e/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.2.aar/2531f64cd0d2c2912277e998a5eb854e/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.4.aar/7c01aa4e0a429ce2b1c86085b0f52322/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.4.aar/7c01aa4e0a429ce2b1c86085b0f52322/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.2.aar/f6a06d1995d13e93d27497f0061b4b15/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.2.aar/f6a06d1995d13e93d27497f0061b4b15/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/f681176fe191cf611b2203ab5b0bb3af/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/f681176fe191cf611b2203ab5b0bb3af/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-18.2.0.aar/d01a85347947a052a9ef07513b6810c8/AndroidManifest.xml:13:22-76
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-18.2.0.aar/d01a85347947a052a9ef07513b6810c8/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-18.2.0.aar/d01a85347947a052a9ef07513b6810c8/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-18.2.0.aar/d01a85347947a052a9ef07513b6810c8/AndroidManifest.xml:19:17-111
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/6e66152a04e3f7fa7f1faae521857d66/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
@@ -384,28 +412,6 @@ ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anahisalgad
 		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/6e66152a04e3f7fa7f1faae521857d66/AndroidManifest.xml:36:13-107
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:16.0.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-16.0.1.aar/6e66152a04e3f7fa7f1faae521857d66/AndroidManifest.xml:34:13-89
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-18.2.0.aar/d01a85347947a052a9ef07513b6810c8/AndroidManifest.xml:13:5-79
-MERGED from [com.google.firebase:firebase-storage:16.0.3] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-storage-16.0.3.aar/4e8340b87d0e1382efe316b70328c9d5/AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-storage:16.0.3] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-storage-16.0.3.aar/4e8340b87d0e1382efe316b70328c9d5/AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.2.aar/2531f64cd0d2c2912277e998a5eb854e/AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.2.aar/2531f64cd0d2c2912277e998a5eb854e/AndroidManifest.xml:23:5-79
-MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.4.aar/7c01aa4e0a429ce2b1c86085b0f52322/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.4.aar/7c01aa4e0a429ce2b1c86085b0f52322/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.2.aar/f6a06d1995d13e93d27497f0061b4b15/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:16.2.2] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.2.aar/f6a06d1995d13e93d27497f0061b4b15/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/f681176fe191cf611b2203ab5b0bb3af/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/f681176fe191cf611b2203ab5b0bb3af/AndroidManifest.xml:22:5-79
-MERGED from [io.grpc:grpc-android:1.16.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/1dff3a24f1886bc06022bbe0fdd1f435/AndroidManifest.xml:11:5-79
-MERGED from [io.grpc:grpc-android:1.16.1] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/grpc-android-1.16.1.aar/1dff3a24f1886bc06022bbe0fdd1f435/AndroidManifest.xml:11:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-18.2.0.aar/d01a85347947a052a9ef07513b6810c8/AndroidManifest.xml:13:22-76
-meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
-ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-18.2.0.aar/d01a85347947a052a9ef07513b6810c8/AndroidManifest.xml:18:13-20:85
-	android:value
-		ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-18.2.0.aar/d01a85347947a052a9ef07513b6810c8/AndroidManifest.xml:20:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-firestore:18.2.0] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-18.2.0.aar/d01a85347947a052a9ef07513b6810c8/AndroidManifest.xml:19:17-111
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.2] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.2.aar/2531f64cd0d2c2912277e998a5eb854e/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-analytics:16.0.4] /Users/anahisalgado/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.4.aar/7c01aa4e0a429ce2b1c86085b0f52322/AndroidManifest.xml:25:5-68
