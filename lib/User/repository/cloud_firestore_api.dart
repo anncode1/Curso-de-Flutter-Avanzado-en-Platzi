@@ -37,7 +37,6 @@ class CloudFirestoreAPI {
         'name' : place.name,
         'description': place.description,
         'likes': place.likes,
-        'order': 8, //BORRAR ESTO
         'urlImage': place.urlImage,
         'userOwner': _db.document("${USERS}/${user.uid}"),//reference
       }).then((DocumentReference dr) {
