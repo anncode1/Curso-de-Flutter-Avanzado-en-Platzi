@@ -37,7 +37,9 @@ class UserBloc implements Bloc {
   Future<void> updatePlaceData(Place place) => _cloudFirestoreRepository.updatePlaceData(place);
   Stream<QuerySnapshot> placesListStream = Firestore.instance.collection(CloudFirestoreAPI().PLACES).snapshots();
   Stream<QuerySnapshot> get placesStream => placesListStream;
-  List<CardImageWithFabIcon> buildPlaces(List<DocumentSnapshot> placesListSnapshot) => _cloudFirestoreRepository.buildPlaces(placesListSnapshot);
+  //List<CardImageWithFabIcon> buildPlaces(List<DocumentSnapshot> placesListSnapshot) => _cloudFirestoreRepository.buildPlaces(placesListSnapshot);
+  List<Place> buildPlaces(List<DocumentSnapshot> placesListSnapshot, User user) => _cloudFirestoreRepository.buildPlaces(placesListSnapshot, user);
+  Future likePlace(Place place, String uid) => _cloudFirestoreRepository.likePlace(place,uid);
 
   Stream<QuerySnapshot> myPlacesListSream(String uid) =>
       Firestore.instance.collection(CloudFirestoreAPI().PLACES)
@@ -59,4 +61,5 @@ class UserBloc implements Bloc {
   void dispose() {
 
   }
+
 }

@@ -44,7 +44,6 @@ class _CardImageList extends State<CardImageList> {
                 case ConnectionState.active:
                   print("PLACESLIST: ACTIVE");
                   return listViewPlaces(userBloc.buildPlaces(snapshot.data.documents, widget.user));
-                  //return listViewPlaces(userBloc.buildPlaces(snapshot.data.documents));
                 case ConnectionState.done:
                   print("PLACESLIST: DONE");
                   return listViewPlaces(userBloc.buildPlaces(snapshot.data.documents, widget.user));

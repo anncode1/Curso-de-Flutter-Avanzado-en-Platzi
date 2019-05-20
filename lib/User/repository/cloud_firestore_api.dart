@@ -75,47 +75,43 @@ class CloudFirestoreAPI {
 
   }
 
-  List<CardImageWithFabIcon> buildPlaces(List<DocumentSnapshot> placesListSnapshot){
-      List<CardImageWithFabIcon> placesCard = List<CardImageWithFabIcon>();
-      double width = 300.0;
-      double height = 350.0;
-      double left = 20.0;
-      IconData iconData = Icons.favorite_border;
+  List<Place> buildPlaces(List<DocumentSnapshot> placesListSnapshot, User user) {
+    List<Place> places = List<Place>();
 
-      placesListSnapshot.forEach((p) {
-        placesCard.add(CardImageWithFabIcon(
-            pathImage: p.data["urlImage"],
-            width: width,
-            height: height,
-            left: left,
-            onPressedFabIcon: (){
-              //Like
-              likePlace(p.documentID);
-            },
-            iconData: iconData,
-            internet: true,
-          )
-        );
+    placesListSnapshot.forEach((p)  {
+      Place place = Place(id: p.documentID, name: p.data["name"], description: p.data["description"],
+          urlImage: p.data["urlImage"],likes: p.data["likes"]
+      );
+      List usersLikedRefs =  p.data["usersLiked"];
+      place.liked = false;
+      usersLikedRefs?.forEach((drUL){
+        if(user.uid == drUL.documentID){
+          place.liked = true;
+        }
       });
-
-      return placesCard;
-
-
+      places.add(place);
+    });
+    return places;
   }
 
-  Future likePlace(String idPlace) async {
-    await _db.collection(PLACES).document(idPlace).get()
+  Future likePlace(Place place, String uid) async {
+    await _db.collection(PLACES).document(place.id).get()
         .then((DocumentSnapshot ds){
        int likes = ds.data["likes"];
 
-       _db.collection(PLACES).document(idPlace)
+       _db.collection(PLACES).document(place.id)
            .updateData({
-         'likes': likes+1
+         'likes': place.liked?likes+1:likes-1,
+         'usersLiked':
+         place.liked?
+         FieldValue.arrayUnion([_db.document("${USERS}/${uid}")]):
+         FieldValue.arrayRemove([_db.document("${USERS}/${uid}")])
        });
 
 
     });
   }
+
 
 
 
