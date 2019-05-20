@@ -8,6 +8,7 @@ class Place {
   String description;
   String urlImage;
   int likes;
+  bool liked;
   //User userOwner;
 
   Place({
@@ -16,6 +17,8 @@ class Place {
     @required this.description,
     @required this.urlImage,
     @required this.likes,
+    this.liked,
+    this.id
     //@required this.userOwner
   });
 }
