@@ -58,7 +58,7 @@ class ProfilePlacesList extends StatelessWidget {
               return CircularProgressIndicator();
             default:
               return Column(
-                  children: userBloc.buildPlaces(snapshot.data.documents)
+                  children: userBloc.buildMyPlaces(snapshot.data.documents)
               );
 
           }

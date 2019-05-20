@@ -63,7 +63,7 @@ class ProfileHeader extends StatelessWidget {
     }else{
       print("Logeado");
       print(snapshot.data);
-      user = User(name: snapshot.data.displayName, email: snapshot.data.email, photoURL: snapshot.data.photoUrl);
+      user = User(uid: snapshot.data.uid,name: snapshot.data.displayName, email: snapshot.data.email, photoURL: snapshot.data.photoUrl);
       final title = Text(
         'Profile',
         style: TextStyle(
