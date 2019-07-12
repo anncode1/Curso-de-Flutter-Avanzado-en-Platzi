@@ -103,46 +103,55 @@ class DescriptionPlace extends StatelessWidget {
   }
 
   Widget titleStars(Place place){
-    return Row (
-      children: <Widget>[
-        Container (
-          margin: EdgeInsets.only(
-              top: 350.0,
-              left: 20.0,
-              right: 20.0
-          ),
-
-          child: Text(
-            place.name,
-            style: TextStyle(
-                fontFamily: "Lato",
-                fontSize: 30.0,
-                fontWeight: FontWeight.w900
+    return Padding(
+      padding: EdgeInsets.symmetric(
+          horizontal: 0.0,
+          vertical: 10.0
+      ),
+      child: Row (
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: <Widget>[
+          Expanded(
+            flex: 2,
+            child: Container (
+              margin: EdgeInsets.only(
+                  top: 350.0,
+                  left: 20.0,
+                  right: 20.0
+              ),
+              child: Text(
+                place.name,
+                style: TextStyle(
+                    fontFamily: "Lato",
+                    fontSize: 30.0,
+                    fontWeight: FontWeight.w900
+                ),
+                textAlign: TextAlign.left,
+              ),
             ),
-            textAlign: TextAlign.left,
           ),
-
-        ),
-        Container (
-          margin: EdgeInsets.only(
-              top: 370.0,
-          ),
-
-          child: Text(
-            "Hearts: ${place.likes}",
-            style: TextStyle(
-                fontFamily: "Lato",
-                fontSize: 18.0,
-                fontWeight: FontWeight.w900,
-                color: Colors.amber
+          Expanded(
+            flex: 1,
+            child: Container (
+              margin: EdgeInsets.only(
+                top: 350.0,
+              ),
+              child: Text(
+                "Hearts: ${place.likes}",
+                style: TextStyle(
+                    fontFamily: "Lato",
+                    fontSize: 18.0,
+                    fontWeight: FontWeight.w900,
+                    color: Colors.amber
+                ),
+                textAlign: TextAlign.left,
+              ),
             ),
-            textAlign: TextAlign.left,
           ),
-
-        ),
-
-      ],
+        ],
+      ),
     );
+
   }
 
   Widget descriptionWidget(String descriptionPlace){
