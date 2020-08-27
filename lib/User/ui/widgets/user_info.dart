@@ -13,10 +13,12 @@ class UserInfo extends StatelessWidget {
   Widget build(BuildContext context) {
 
     final userPhoto = Container(
-      width: 90.0,
-      height: 90.0,
+      width: 80.0,
+      height: 80.0,
       margin: EdgeInsets.only(
-          right: 20.0
+          top: 5,
+          right: 20.0,
+          bottom: 15.0
       ),
       decoration: BoxDecoration(
           border: Border.all(
@@ -34,7 +36,7 @@ class UserInfo extends StatelessWidget {
     );
 
     final userInfo = Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
         Container(
             margin: EdgeInsets.only(
@@ -54,7 +56,7 @@ class UserInfo extends StatelessWidget {
             user.email,
             style: TextStyle(
                 fontSize: 15.0,
-                color: Colors.white30,
+                color: Colors.white54,
                 fontFamily: 'Lato'
             )
         ),
@@ -63,10 +65,10 @@ class UserInfo extends StatelessWidget {
 
     return Container(
       margin: EdgeInsets.symmetric(
-          vertical: 20.0,
+          vertical: 0.0,
           horizontal: 0.0
       ),
-      child: Row(
+      child: Column(
         children: <Widget>[
           userPhoto,
           userInfo

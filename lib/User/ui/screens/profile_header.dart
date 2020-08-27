@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:generic_bloc_provider/generic_bloc_provider.dart';
-import 'package:platzi_trips_app/User/bloc/bloc_user.dart';
+//import 'package:generic_bloc_provider/generic_bloc_provider.dart';
+//import 'package:platzi_trips_app/User/bloc/bloc_user.dart';
 import 'package:platzi_trips_app/User/model/user.dart';
 import 'package:platzi_trips_app/User/ui/widgets/user_info.dart';
 import 'package:platzi_trips_app/User/ui/widgets/button_bar.dart';
@@ -14,7 +14,7 @@ class ProfileHeader extends StatelessWidget {
   Widget build(BuildContext context) {
 
     final title = Text(
-      'Profile',
+      'Perfil',
       style: TextStyle(
           fontFamily: 'Lato',
           color: Colors.white,
