@@ -10,11 +10,11 @@
     <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Playৰ সেৱা সম্পৰ্কীয় আসোঁৱাহ"</string>
     <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Google প্লে সেৱাত <ns1:g id="APP_NAME">%1$s</ns1:g> ত সমস্যা হৈ আছে। আকৌ চেষ্টা কৰক।"</string>
     <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> Google প্লে সেৱাৰ অবিহনে নচলে, যিবোৰ আপোনাৰ ডিভাইচত চলিব নোৱাৰে।"</string>
-    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"আপডেট কৰক"</string>
-    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"আপুনি Google Play সেৱাবোৰ আপডেট নকৰালৈকে <ns1:g id="APP_NAME">%1$s</ns1:g> নচলিব।"</string>
-    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play সেৱা আপডেট কৰক"</string>
-    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"বৰ্তমান আপডেট হৈ থকা Google Play সেৱাসমূহৰ অবিহনে <ns1:g id="APP_NAME">%1$s</ns1:g> নচলিব৷"</string>
-    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play সেৱাসমূহৰ নতুন সংস্কৰণৰ প্ৰয়োজন৷ এইটো শীঘ্ৰেই নিজে-নিজে আপডেট হ’ব৷"</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"আপডে’ট কৰক"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"আপুনি Google Play সেৱাবোৰ আপডে’ট নকৰালৈকে <ns1:g id="APP_NAME">%1$s</ns1:g> নচলিব।"</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play সেৱা আপডে’ট কৰক"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"বৰ্তমান আপডে’ট হৈ থকা Google Play সেৱাসমূহৰ অবিহনে <ns1:g id="APP_NAME">%1$s</ns1:g> নচলিব৷"</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play সেৱাসমূহৰ নতুন সংস্কৰণৰ প্ৰয়োজন৷ এইটো শীঘ্ৰেই নিজে-নিজে আপডে’ট হ’ব৷"</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"ফ\'নত খোলক"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"ছাইন ইন কৰক"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Googleৰ জৰিয়তে ছাইন ইন কৰক"</string>

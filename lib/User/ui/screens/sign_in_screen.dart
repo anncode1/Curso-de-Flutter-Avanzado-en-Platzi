@@ -72,12 +72,13 @@ class _SignInScreen extends State<SignInScreen> {
               ButtonGreen(text: "Login with Gmail",
                 onPressed: () {
                   userBloc.signOut();
+                  // ignore: deprecated_member_use
                   userBloc.signIn().then((FirebaseUser user) {
-                    userBloc.updateUserData(User(
+                    userBloc.updateUserData(Usuario(
                       uid: user.uid,
                       name: user.displayName,
                       email: user.email,
-                      photoURL: user.photoUrl
+                      photoURL: user.photoURL
                     ));
                   });
 

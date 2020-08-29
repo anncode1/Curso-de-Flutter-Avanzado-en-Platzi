@@ -16,7 +16,7 @@
     <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Aplikacija <ns1:g id="APP_NAME">%1$s</ns1:g> neće raditi bez Google Play usluga, koje se trenutno ažuriraju."</string>
     <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Potrebna je nova verzija Google Play usluga. Ubrzo će se samo ažurirati."</string>
     <string msgid="5201977337835724196" name="common_open_on_phone">"Otvori na telefonu"</string>
-    <string msgid="3441753203274453993" name="common_signin_button_text">"Prijavi se"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Prijava"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Prijavi se pomoću Googlea"</string>
     <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

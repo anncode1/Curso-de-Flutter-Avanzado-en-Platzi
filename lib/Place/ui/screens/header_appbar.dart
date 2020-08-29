@@ -45,7 +45,7 @@ class HeaderAppBar extends StatelessWidget {
         ],
       );
     } else {
-      User user = User(
+      Usuario user = Usuario(
           uid: snapshot.data.uid,
           name: snapshot.data.displayName,
           email: snapshot.data.email,

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
     <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"सुरू करा"</string>
-    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"तुम्ही Google Play सेवा सक्षम केल्याशिवाय <ns1:g id="APP_NAME">%1$s</ns1:g> हा अॅप कार्य करणार नाही."</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"तुम्ही Google Play सेवा सक्षम केल्याशिवाय <ns1:g id="APP_NAME">%1$s</ns1:g> हा अ‍ॅप कार्य करणार नाही."</string>
     <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play सेवा सुरू करा"</string>
     <string msgid="9115728400623041681" name="common_google_play_services_install_button">"स्‍थापित करा"</string>
     <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Google Play सेवा आपल्या डिव्हाइसवर उपलब्ध नाही, त्याशिवाय <ns1:g id="APP_NAME">%1$s</ns1:g> चालणार नाही."</string>

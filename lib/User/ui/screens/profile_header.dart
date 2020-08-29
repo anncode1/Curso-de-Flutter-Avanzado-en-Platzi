@@ -6,7 +6,7 @@ import 'package:platzi_trips_app/User/ui/widgets/user_info.dart';
 import 'package:platzi_trips_app/User/ui/widgets/button_bar.dart';
 
 class ProfileHeader extends StatelessWidget {
-  User user;
+  Usuario user;
 
   ProfileHeader(@required this.user);
 
@@ -63,7 +63,7 @@ class ProfileHeader extends StatelessWidget {
     }else{
       print("Logeado");
       print(snapshot.data);
-      user = User(uid: snapshot.data.uid,name: snapshot.data.displayName, email: snapshot.data.email, photoURL: snapshot.data.photoUrl);
+      user = Usuario(uid: snapshot.data.uid,name: snapshot.data.displayName, email: snapshot.data.email, photoURL: snapshot.data.photoUrl);
       final title = Text(
         'Profile',
         style: TextStyle(

@@ -8,7 +8,7 @@ import 'package:platzi_trips_app/Place/model/place.dart';
 class ProfilePlacesList extends StatelessWidget {
 
   UserBloc userBloc;
-  User user;
+  Usuario user;
   ProfilePlacesList(@required this.user);
 
   Place place = Place(

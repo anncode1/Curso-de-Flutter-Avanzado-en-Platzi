@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:platzi_trips_app/Place/model/place.dart';
 
-class User {
+class Usuario {
   final String uid;
   final String name;
   final String email;
@@ -12,7 +12,7 @@ class User {
   //myFavoritePlaces
   //myPlaces
 
-  User({
+  Usuario({
     Key key,
     @required this.uid,
     @required this.name,

@@ -9,7 +9,7 @@ import 'package:platzi_trips_app/widgets/floating_action_button_green.dart';
 
 class CardImageList extends StatefulWidget {
 
-  User user;
+  Usuario user;
 
   CardImageList(@required this.user);
 

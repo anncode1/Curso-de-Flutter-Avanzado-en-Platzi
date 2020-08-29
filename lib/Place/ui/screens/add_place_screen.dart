@@ -56,10 +56,10 @@ class _AddPlaceScreen extends State<AddPlaceScreen> {
               ),
 
               Flexible(
-                child: Container(
-                  padding: EdgeInsets.only(top: 45.0, left: 20.0, right: 10.0),
-                  child: TitleHeader(title: "Add a new Place"),
-              ))
+                  child: Container(
+                    padding: EdgeInsets.only(top: 45.0, left: 20.0, right: 10.0),
+                    child: TitleHeader(title: "Add a new Place"),
+                  ))
 
 
             ],
@@ -96,8 +96,8 @@ class _AddPlaceScreen extends State<AddPlaceScreen> {
                 Container(
                   margin: EdgeInsets.only(top: 20.0),
                   child: TextInputLocation(
-                    hintText: "Add Location",
-                    iconData: Icons.location_on),
+                      hintText: "Add Location",
+                      iconData: Icons.location_on),
                 ),
                 Container(
                   width: 70.0,
@@ -106,38 +106,37 @@ class _AddPlaceScreen extends State<AddPlaceScreen> {
                     onPressed: () {
 
                       //ID del usuario logeado actualmente
-                      userBloc.currentUser.then((FirebaseUser user) {
-                        if(user != null){
-                          String uid = user.uid;
+                      if(userBloc.currentUser.uid != null){
+                        String uid = userBloc.currentUser.uid;
                           String path = "${uid}/${DateTime.now().toString()}.jpg";
                           //1. Firebase Storage
                           //url -
                           userBloc.uploadFile(path, widget.image)
                               .then((StorageUploadTask storageUploadTask){
-                                storageUploadTask.onComplete.then((StorageTaskSnapshot snapshot){
-                                  snapshot.ref.getDownloadURL().then((urlImage){
-                                    print("URLIMAGE: ${urlImage}");
+                            storageUploadTask.onComplete.then((StorageTaskSnapshot snapshot){
+                              snapshot.ref.getDownloadURL().then((urlImage){
+                                print("URLIMAGE: ${urlImage}");
 
 
-                                    //2. Cloud Firestore
-                                    //Place - title, description, url, userOwner, likes
-                                    userBloc.updatePlaceData(Place(
-                                      name: _controllerTitlePlace.text,
-                                      description: _controllerDescriptionPlace.text,
-                                      urlImage: urlImage,
-                                      likes: 0,
+                                //2. Cloud Firestore
+                                //Place - title, description, url, userOwner, likes
+                                userBloc.updatePlaceData(Place(
+                                  name: _controllerTitlePlace.text,
+                                  description: _controllerDescriptionPlace.text,
+                                  urlImage: urlImage,
+                                  likes: 0,
 
-                                    )).whenComplete(() {
-                                      print("TERMINO");
-                                      Navigator.pop(context);
-                                    });
-
-                                  });
+                                )).whenComplete(() {
+                                  print("TERMINO");
+                                  Navigator.pop(context);
                                 });
+
+                              });
+                            });
                           });
 
                         }
-                      });
+
 
 
                     },

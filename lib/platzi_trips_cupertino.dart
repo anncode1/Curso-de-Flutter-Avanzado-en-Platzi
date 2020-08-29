@@ -29,6 +29,7 @@ class PlatziTripsCupertino extends StatelessWidget {
             ]
         ),
 
+        // ignore: missing_return
         tabBuilder: (BuildContext context, int index) {
           switch (index) {
             case 0:
