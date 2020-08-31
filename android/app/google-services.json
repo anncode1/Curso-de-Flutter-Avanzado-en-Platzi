@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "362058329438",
+    "firebase_url": "https://mauritripsflutter.firebaseio.com",
+    "project_id": "mauritripsflutter",
+    "storage_bucket": "mauritripsflutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362058329438:android:7534724df0f95ed52ef3cf",
+        "android_client_info": {
+          "package_name": "com.anncode.platzitripsflutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362058329438-dtdl9ha15dng9l2j76uofng4a9t785s9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anncode.platzitripsflutter",
+            "certificate_hash": "a134e6d84d0fd33f3a5adb3ddde2252db965f36f"
+          }
+        },
+        {
+          "client_id": "362058329438-9fq6u9nb0jjmcvanpi18r3q4u7l9eanp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEfPdC7qKYsTKmoMLzHHT2FNh2dKnat5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362058329438-9fq6u9nb0jjmcvanpi18r3q4u7l9eanp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
